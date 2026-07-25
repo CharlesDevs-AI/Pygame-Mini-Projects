@@ -1,17 +1,17 @@
-# 🐦 Flappy Bird
+# 🚀 Space Shooter
 
-A simple **Flappy Bird** clone developed using **Python** and **Pygame**. Control the bird, avoid pipes, and survive as long as possible.
+A simple **2D Space Shooter** game built using **Python** and **Pygame**. Control the spaceship, shoot enemies, and survive as long as possible.
 
 ---
 
 ## 📌 Features
 
-- Smooth bird movement
-- Gravity and jump mechanics
-- Random pipe generation
-- Live score tracking
-- Game Over screen
-- Simple and colorful UI
+- 🚀 Player-controlled spaceship
+- 👾 Random enemy spawning
+- 🔫 Bullet shooting system
+- 💥 Collision detection
+- 📊 Live score tracking
+- ❌ Game Over screen
 
 ---
 
@@ -25,7 +25,7 @@ A simple **Flappy Bird** clone developed using **Python** and **Pygame**. Contro
 ## 📂 Project Structure
 
 ```
-04_Flappy_Bird/
+05_Space_Shooter/
 │
 ├── main.py
 ├── README.md
@@ -39,7 +39,9 @@ A simple **Flappy Bird** clone developed using **Python** and **Pygame**. Contro
 
 | Key | Action |
 |------|--------|
-| Space | Jump |
+| ← | Move Left |
+| → | Move Right |
+| Space | Shoot |
 
 ---
 
@@ -57,8 +59,6 @@ python main.py
 
 Add gameplay screenshots inside the **assets** folder.
 
-Example:
-
 ```
 assets/gameplay.png
 ```
@@ -67,12 +67,13 @@ assets/gameplay.png
 
 ## 🚀 Future Improvements
 
-- Background music
+- Spaceship sprites
+- Explosion animations
 - Sound effects
-- Animated bird
-- Multiple difficulty levels
+- Boss enemies
+- Multiple levels
+- Power-ups
 - High score system
-- Start menu and restart option
 
 ---
 
@@ -80,12 +81,10 @@ assets/gameplay.png
 
 **Charles A**
 
-GitHub:
-https://github.com/CharlesDevs-AI
+GitHub: https://github.com/CharlesDevs-AI
 
-LinkedIn:
-https://www.linkedin.com/in/acharles2005/
+LinkedIn: https://www.linkedin.com/in/acharles2005/
 
 ---
 
-⭐ If you like this project, don't forget to star the repository.
+⭐ Star this repository if you enjoyed the project.

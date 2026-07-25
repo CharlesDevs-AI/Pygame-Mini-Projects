@@ -120,17 +120,6 @@ screen.blit(score_text, (145, 330))
 
 pygame.display.flip()
 
-# Game Over
-screen.fill(SKY)
-
-game_over = font.render("GAME OVER", True, WHITE)
-score_text = font.render(f"Final Score : {score}", True, WHITE)
-
-screen.blit(game_over, (150, 280))
-screen.blit(score_text, (145, 330))
-
-pygame.display.flip()
-
 pygame.time.wait(3000)
 
 pygame.quit()
